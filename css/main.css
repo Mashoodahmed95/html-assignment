@@ -1,0 +1,44 @@
+/*My awesome CSS */
+body {
+    background-color:lightblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+
+header, footer {
+    background-color: lightskyblue;
+}
+
+.site-title{
+    color: white;
+}
+
+#my-image {
+    box-shadow: 0px 0px 2px 1px black;
+}
+article li:nth-child(odd) {
+    background: red;
+}
+
+nav ul{
+    list-style-type: none;
+}
+ 
+
+nav a:link {
+    text-decoration:none ;
+}
+
+a:hover {
+    background-color: blue;
+}
+
+a:link {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+
